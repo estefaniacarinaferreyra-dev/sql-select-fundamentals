@@ -1,12 +1,15 @@
 -- ══════════════════════════════════════════
 -- TechStore — Consultas Básicas SELECT
--- Autor: [Ferreyra Estefania]
--- Fecha: [19-09-2026]
+-- Autor: Ferreyra Estefania
+-- Fecha: 19-09-2026
 -- ══════════════════════════════════════════
 
 ----Consulta 1 — Exploración general
 SELECT *
 FROM sales
+--utilizar el select * es útil cuando necesitamos saber que información tiene una tabla,
+--para conocer la estructura de la misma y pocibles vínculos con otras tablas, pero la desventaja
+-- es que si la tabla tiene muchos registros puede ser poco eficiente y demorar mas de lo deseado.
 
 ---Consulta 2 — Selección específica
 SELECT 
